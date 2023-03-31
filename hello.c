@@ -27,4 +27,12 @@ void main()
         
     }
 
+    printf("sum of numbers till %d", n);
+    j=0;
+    for(i=1;i<=n;++i)
+    {
+        j+=i;
+    }
+    printf("Sum is : %d",j);
+
 }
